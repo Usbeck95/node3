@@ -1,0 +1,25 @@
+{
+  "name": "node3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "checkpoint": "git add .  && git commit -F - && git push origin master ",
+    "pretest": "npm install",
+    "test": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Usbeck95/node3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Usbeck95/node3/issues"
+  },
+  "homepage": "https://github.com/Usbeck95/node3#readme",
+  "dependencies": {
+    "http-status-codes": "^2.1.4"
+  }
+}
