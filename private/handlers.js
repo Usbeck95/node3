@@ -5,7 +5,7 @@
  */
 const fs = require("fs");                           // file system access
 const httpStatus = require("http-status-codes");    // http sc
-const getAndServe = function (res, path, content) {
+const getAndServe = async function (res, path, content) {
     fs.readFile(path, function(err, data) {
         if (err) {
             console.log(`Not found file: ${path}`);
